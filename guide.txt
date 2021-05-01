@@ -1,0 +1,10 @@
+URL: http://localhost:8080/FetchNextNumber
+
+Sample JSON input
+{
+  "categoryCode": "XYZ"
+}
+
+Http Method: GET
+
+Please refer above sample data and check the same with Postman
