@@ -1,0 +1,4 @@
+I have used Spring's Restful web services with Spring Boot.
+Database: MySql with Spring JDBC Template.
+Used Spring MVC Architecture.
+I have added 1 method in service to calculate final result of sum which is useful to calculate the next number as per the business requirement.
