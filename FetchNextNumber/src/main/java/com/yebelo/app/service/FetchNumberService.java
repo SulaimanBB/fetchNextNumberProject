@@ -32,6 +32,14 @@ public class FetchNumberService {
 		
 		// Update the next number to database
 		fetchNumberDAO.updateCategoryValue(category);
+		
+		//Added 4 seconds delay
+		try {
+			Thread.sleep(4000);
+		} catch (InterruptedException e) {
+			// ignore
+		}
+		
 		return category;
 	}
 	

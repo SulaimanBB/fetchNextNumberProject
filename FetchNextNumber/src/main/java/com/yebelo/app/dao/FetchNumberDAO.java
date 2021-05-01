@@ -22,7 +22,7 @@ public class FetchNumberDAO {
 		}
 	}
 
-	public void updateCategoryValue(Category category) {
+	public synchronized void updateCategoryValue(Category category) {
 		jdbcTemplate.update("update tblcategory set category_value = ? where category_code = ?", new Object[] {category.getValue(), category.getCategoryCode()});
 	}
 	
