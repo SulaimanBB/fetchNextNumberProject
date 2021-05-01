@@ -23,7 +23,7 @@ public class FetchNextNumberApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
-		int resultOne = fetchNumberService.isResultOne(91);
+		int resultOne = fetchNumberService.calculateSum(99991);
 		System.out.println("Final: "+resultOne);
 		
 	}
